@@ -31,19 +31,23 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -71,6 +75,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ll.exam.app10.app.member.entity" />
       <recent name="main.java.com.ll.exam.app10.app.base" />
       <recent name="com.ll.exam.app10.app.base" />
       <recent name="com.ll.exam.app10.app.home.controller" />
@@ -96,7 +101,7 @@
       <updated>1663513070668</updated>
       <workItem from="1663513072434" duration="1579000" />
       <workItem from="1663515635272" duration="1158000" />
-      <workItem from="1663772269832" duration="930000" />
+      <workItem from="1663772269832" duration="1971000" />
     </task>
     <servers />
   </component>
