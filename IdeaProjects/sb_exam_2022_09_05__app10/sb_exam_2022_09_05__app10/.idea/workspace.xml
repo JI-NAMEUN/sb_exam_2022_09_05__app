@@ -31,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,7 +70,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "ca2ca32160ae7e54473528dc7d033135"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,7 +102,8 @@
       <updated>1663513070668</updated>
       <workItem from="1663513072434" duration="1579000" />
       <workItem from="1663515635272" duration="1158000" />
-      <workItem from="1663772269832" duration="1971000" />
+      <workItem from="1663772269832" duration="2190000" />
+      <workItem from="1664000769951" duration="237000" />
     </task>
     <servers />
   </component>
