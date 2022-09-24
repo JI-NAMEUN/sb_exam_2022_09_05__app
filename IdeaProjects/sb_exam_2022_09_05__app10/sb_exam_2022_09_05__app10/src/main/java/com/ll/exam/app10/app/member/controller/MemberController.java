@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.multipart.MultipartFile;
-
+import org.springframework.ui.Model;
 import javax.servlet.http.HttpSession;
 
 @Controller
@@ -38,6 +38,7 @@ public class MemberController {
     }
 
     @GetMapping("/profile")
+    public String showProfile(HttpSession session, Model model) {
     public String showProfile(HttpSession session) {
         Long loginedMemberId = (Long) session.getAttribute("loginedMemberId");
         boolean isLogined = loginedMemberId != null;
@@ -45,6 +46,9 @@ public class MemberController {
         if (isLogined == false) {
             return "redirect:/?errorMsg=Need to login!";
         }
+            Member loginedMember = memberService.getMemberById(loginedMemberId);
+
+            model.addAttribute("loginedMember", loginedMember);
 
         return "member/profile";
     }
